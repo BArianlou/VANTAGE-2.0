@@ -1696,10 +1696,13 @@ The connection defines:
 
 Without a connection, motion in the manifold cannot be described consistently.
 
-### 27.2 Christoffel Symbols
+## 27.2 Christoffel Symbols
+
 The connection is represented by Christoffel symbols:
 
-Γ^i_jk = ½ g^im ( ∂_j g_mk + ∂_k g_mj − ∂_m g_jk )
+\[
+\Gamma^{i}_{jk} = \tfrac{1}{2} g^{im} \left( \partial_j g_{mk} + \partial_k g_{mj} - \partial_m g_{jk} \right)
+\]
 
 These coefficients determine:
 
@@ -1708,7 +1711,7 @@ These coefficients determine:
 - how curvature evolves  
 - how instability spreads  
 
-They are the “rules of motion” for the manifold.
+They are the rules of motion for the manifold.
 
 ### 27.3 Drift Transport
 Drift transport describes how the drift vector changes as it moves:
