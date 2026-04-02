@@ -1,0 +1,28 @@
+# VANTAGE 2.0 | Logical Pseudocode Specification
+**Document Version:** 1.0.0
+**Source:** Appendix B: Systems Architecture Manifesto (LinkedIn 2026)
+**Classification:** Proprietary / Logic Layer
+
+## 1. The State Vector Update Loop
+This routine processes raw sensor/data inputs into a normalized state manifold. It ensures that signal noise is suppressed before the state is committed to the phase space.
+
+```python
+FUNCTION Update_System_State(raw_F, raw_S, raw_M):
+    # Step 1: Normalization (Reference: NORMALIZATION_SUBSTRATE.md)
+    F_norm = Normalize(raw_F, [0, 1])
+    S_norm = Normalize(raw_S, [0, 1])
+    M_norm = Normalize(raw_M, [0, 1])
+
+    # Step 2: Noise Handling / Smoothing (Lambda-Filter Logic)
+    # λ (lambda) acts as the temporal decay constant
+    F_smooth = (lambda * F_norm) + ((1 - lambda) * F_prev)
+    S_smooth = (lambda * S_norm) + ((1 - lambda) * S_prev)
+    M_smooth = (lambda * M_norm) + ((1 - lambda) * M_prev)
+
+    # Step 3: Compute Velocity and Acceleration
+    # V = First Derivative | A = Second Derivative
+    Velocity = (R_current - R_prev) / Delta_t
+    Acceleration = (Velocity_current - Velocity_prev) / Delta_t
+
+    RETURN {State: [F, S, M], V: Velocity, A: Acceleration}
+END FUNCTION
