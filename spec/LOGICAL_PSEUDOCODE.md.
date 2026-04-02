@@ -26,3 +26,44 @@ FUNCTION Update_System_State(raw_F, raw_S, raw_M):
 
     RETURN {State: [F, S, M], V: Velocity, A: Acceleration}
 END FUNCTION
+FUNCTION RiCo_Gate_Check(State, V, A):
+    # Requirement 1: Metric Stability
+    IF magnitude(State) > critical_threshold:
+        SIGNAL_MANIFOLD_STRESS
+    
+    # Requirement 2: Entropy Acceleration Guard
+    # a_s > γ * s (The Instability Trigger)
+    IF A.entropy > (gamma * State.entropy):
+        BLOCK_MANEUVER
+        TRIGGER_REGIME_SHIFT_WARNING
+
+    # Requirement 3: Continuity Check
+    IF Velocity > max_permissible_drift:
+        REJECT_STATE_UPDATE
+        RE_INITIALIZE_SUBSTRATE
+
+    RETURN GATE_STATUS_CLEARED
+END FUNCTION
+# VANTAGE 2.0 | The Systems Architecture Manifesto
+**Document Version:** 1.0.0  
+**Author:** Bijan Arianlou  
+**Date:** March 2026  
+**Classification:** Strategic Whitepaper / Public Domain Logic
+
+## 1. The Fallacy of Linear Regression
+Standard predictive models fail because they treat systemic evolution as a series of linear events. VANTAGE 2.0 rejects this substrate. Systems do not move in lines; they evolve within a **Phase Space** governed by the interaction of kinetic potential (Fuel) and structural friction (Entropy).
+
+## 2. The Physics-Native Doctrine
+By modeling data as a physical manifold, we move beyond "Statistical Probability" and into "Dynamical Certainty." 
+* **The Substrate:** Every signal is normalized into a bounded coordinate.
+* **The Flow:** Trajectories are calculated as Geodesics—the path of least resistance on a curved manifold.
+* **The Safety:** The RiCo Gate ensures that no maneuver is permitted if it threatens systemic integrity.
+
+## 3. Industry Application: From Finance to Infrastructure
+VANTAGE 2.0 is designed as a universal engine. Whether auditing a high-frequency trading environment or a complex electrical grid, the core physics remain the same:
+1. Identify the **Fuel** (Liquidity/Energy).
+2. Measure the **Entropy** (Debt/Resistance).
+3. Forecast the **Regime Shift** before the manifold tears.
+
+---
+*This manifesto serves as the foundational narrative for the VANTAGE 2.0 repository. For technical implementation details, refer to the [Logical Pseudocode](./LOGICAL_PSEUDOCODE.md) and the [Core Python Engine](../core/).*
