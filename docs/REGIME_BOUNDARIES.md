@@ -1701,7 +1701,7 @@ Without a connection, motion in the manifold cannot be described consistently.
 The connection is represented by Christoffel symbols:
 
 \[
-\Gamma^{i}_{jk} = \tfrac{1}{2} g^{im} \left( \partial_j g_{mk} + \partial_k g_{mj} - \partial_m g_{jk} \right)
+\Gamma^{i}_{jk} = \frac{1}{2} g^{im} \left( \partial_j g_{mk} + \partial_k g_{mj} - \partial_m g_{jk} \right)
 \]
 
 These coefficients determine:
