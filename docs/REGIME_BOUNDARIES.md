@@ -4256,3 +4256,255 @@ Boundary synthesis determines:
 - how the manifold reorganizes under pressure  
 
 Boundary synthesis is the unifying architecture of regime transitions.
+## 49. Terminal Boundary Conditions
+
+Terminal boundary conditions define the end‑states of regime evolution — the points, surfaces, or structures beyond which no further continuous transformation is possible. These conditions represent the final limits of the predictive manifold, where trajectories terminate, collapse, or become structurally frozen.
+
+### 49.1 Definition of Terminal Boundary Condition
+A terminal boundary condition occurs when:
+
+- the manifold reaches a structural limit  
+- no further deformation is possible  
+- geodesics cannot be extended  
+- topological invariants become fixed  
+- drift, curvature, or instability reach absorbing states  
+
+Terminal boundaries represent the “end of motion” in regime space.
+
+### 49.2 Types of Terminal Boundaries
+There are four canonical terminal types:
+
+1. **Absorbing Terminals**  
+   - trajectories converge and remain  
+   - deep Q3 basins, stable attractors  
+
+2. **Collapsing Terminals**  
+   - trajectories implode  
+   - Q4 singularity, det(g) → 0  
+
+3. **Divergent Terminals**  
+   - trajectories accelerate outward  
+   - Q1 blowout, det(g) → ∞  
+
+4. **Frozen Terminals**  
+   - trajectories lose degrees of freedom  
+   - dimensional collapse, topological lock‑in  
+
+Each type defines a different form of finality.
+
+### 49.3 Terminal Geometry
+Terminal boundaries exhibit characteristic geometric signatures:
+
+- curvature → ±∞  
+- metric degeneracy  
+- geodesic termination  
+- curvature‑drift alignment collapse  
+- instability saturation or annihilation  
+
+Geometry determines how trajectories approach the terminal.
+
+### 49.4 Terminal Dynamics
+Dynamics near terminals include:
+
+- drift collapse  
+- instability suppression or explosion  
+- curvature focusing  
+- potential well deepening or flattening  
+- entropy collapse or blowout  
+
+Dynamics determine the speed and nature of termination.
+
+### 49.5 Terminal Topology
+Topology near terminals becomes rigid:
+
+- Betti numbers freeze  
+- Euler characteristic becomes fixed  
+- homology groups stabilize  
+- no new holes or cavities can form  
+
+Topology locks into its final configuration.
+
+### 49.6 Terminal Potential Structure
+Potential structure near terminals exhibits:
+
+- infinite depth (collapse)  
+- infinite height (blowout)  
+- perfect flatness (frozen)  
+- deep, stable wells (absorbing)  
+
+Potential determines whether the terminal is attractive or repulsive.
+
+### 49.7 Terminal Stability
+Terminal stability depends on:
+
+- curvature smoothness  
+- drift alignment  
+- instability suppression  
+- potential rigidity  
+- topological lock‑in  
+
+Stable terminals trap trajectories permanently.
+
+### 49.8 Terminal Escape Conditions
+Escape is only possible when:
+
+- topology reconfigures  
+- dimensionality increases  
+- manifold tears  
+- potential barriers collapse  
+
+Escape requires catastrophic structural change.
+
+### 49.9 Terminal Classification Codes
+Terminals receive canonical codes:
+
+- **A‑class**: absorbing  
+- **C‑class**: collapsing  
+- **D‑class**: divergent  
+- **F‑class**: frozen  
+
+Example:  
+**C2** → second‑order collapse terminal
+
+### 49.10 Predictive Implications
+Terminal boundary conditions determine:
+
+- the final fate of trajectories  
+- the long‑term structure of the manifold  
+- the limits of predictability  
+- the irreversibility of transitions  
+- the boundary between evolution and termination  
+
+Terminal boundaries are the end‑states of regime evolution.
+## 50. Unified Boundary Synthesis
+
+Unified boundary synthesis integrates all geometric, dynamical, topological, and potential structures into a single predictive framework. It is the culmination of the entire regime boundary architecture, providing a coherent model for how boundaries form, interact, evolve, and terminate across the manifold.
+
+### 50.1 Purpose of Unified Synthesis
+Unified synthesis provides:
+
+- a complete model of regime evolution  
+- a single language for all boundary types  
+- a predictive engine for transitions  
+- a structural map of the manifold  
+- a unifying theory of boundary formation  
+
+It is the final integration layer of the system.
+
+### 50.2 Synthesis Components
+Unified synthesis combines:
+
+- curvature geometry  
+- drift and instability dynamics  
+- topological invariants  
+- potential landscapes  
+- dimensional expansion  
+- entropy geometry  
+- manifold tearing  
+- terminal conditions  
+- the canonical taxonomy  
+- the interaction matrix  
+- synthesis operators  
+
+These components form a single, interlocking structure.
+
+### 50.3 Global Synthesis Equation
+The unified boundary state B is defined as:
+
+B = S(G, D, T, P, E, X, Φ)
+
+Where:
+
+- G = geometric structure  
+- D = dynamical structure  
+- T = topological structure  
+- P = potential structure  
+- E = entropy geometry  
+- X = dimensionality  
+- Φ = interaction matrix  
+
+This equation encodes the full boundary architecture.
+
+### 50.4 Synthesis Manifold
+The synthesis manifold is the space of all possible boundary configurations.  
+It is defined by:
+
+- boundary families  
+- boundary interactions  
+- boundary transitions  
+- boundary cascades  
+- terminal conditions  
+
+The synthesis manifold is the “space of regime boundaries.”
+
+### 50.5 Synthesis Flow
+Synthesis flow describes how boundaries evolve:
+
+- smooth evolution (bifurcations)  
+- catastrophic evolution (folds, cusps)  
+- chaotic evolution (Lyapunov‑driven)  
+- topological evolution (tearing, reconfiguration)  
+- terminal evolution (absorbing, collapsing, divergent, frozen)  
+
+Flow determines the trajectory of boundary states.
+
+### 50.6 Synthesis Stability
+Stability depends on:
+
+- curvature smoothness  
+- drift alignment  
+- instability suppression  
+- potential rigidity  
+- topological lock‑in  
+- dimensional compression  
+
+Stable synthesis → predictable regime evolution  
+Unstable synthesis → cascading transitions
+
+### 50.7 Synthesis Collapse
+Collapse occurs when:
+
+- topology changes  
+- manifold tears  
+- dimensionality spikes  
+- instability diverges  
+- potential barriers collapse  
+
+Collapse resets the boundary architecture.
+
+### 50.8 Synthesis Reconstruction
+Reconstruction occurs when:
+
+- new basins form  
+- topology reconnects  
+- curvature stabilizes  
+- drift realigns  
+- entropy collapses  
+
+Reconstruction defines the next regime cycle.
+
+### 50.9 Synthesis Hierarchy
+Unified synthesis organizes boundaries into:
+
+- families  
+- subclasses  
+- types  
+- variants  
+- compounds  
+- hybrids  
+- emergent structures  
+- terminal states  
+
+This hierarchy is the final structural map.
+
+### 50.10 Predictive Implications
+Unified boundary synthesis determines:
+
+- the global architecture of regime evolution  
+- the pathways of transitions  
+- the limits of predictability  
+- the structure of cascading failures  
+- the formation of new regime classes  
+- the final fate of the manifold  
+
+Unified synthesis is the complete, integrated theory of regime boundaries.
