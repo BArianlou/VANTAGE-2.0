@@ -1700,18 +1700,28 @@ Without a connection, motion in the manifold cannot be described consistently.
 
 The connection is represented by Christoffel symbols:
 
-\[
-\Gamma^{i}_{jk} = \frac{1}{2} g^{im} \left( \partial_j g_{mk} + \partial_k g_{mj} - \partial_m g_{jk} \right)
-\]
+$$\Gamma^i_{jk} = \frac{1}{2} g^{im} \left( \partial_j g_{mk} + \partial_k g_{mj} - \partial_m g_{jk} \right)$$
 
 These coefficients determine:
-
-- how geodesics bend  
-- how drift accelerates  
-- how curvature evolves  
-- how instability spreads  
+- how geodesics bend
+- how drift accelerates
+- how curvature evolves
+- how instability spreads
 
 They are the rules of motion for the manifold.
+
+### 27.3 Drift Transport
+
+Drift transport describes how the drift vector changes as it moves:
+
+$$\nabla_j D^i = \partial_j D^i + \Gamma^i_{jk} D^k$$
+
+This determines:
+- drift acceleration
+- drift rotation
+- drift divergence
+
+Transport reveals whether drift reinforces or opposes regime boundaries.
 ### 27.3 Drift Transport
 Drift transport describes how the drift vector changes as it moves:
 
