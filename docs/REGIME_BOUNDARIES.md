@@ -1712,7 +1712,6 @@ These coefficients determine:
 - how instability spreads  
 
 They are the rules of motion for the manifold.
-
 ### 27.3 Drift Transport
 Drift transport describes how the drift vector changes as it moves:
 
