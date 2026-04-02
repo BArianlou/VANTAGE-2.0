@@ -33,6 +33,8 @@ Models transitions as entropy‑driven expansions ($\Delta S > 0$) or contractio
 
 ## Visual Model
 ![Vantage 2.0 Model](./assets/vantage_2_model.png)
+## Deep-Dive Documentation
+For a full technical breakdown of the physics-native logic and regime boundary definitions, see the [Strategic Framework](./docs/STRATEGIC_FRAMEWORK.md).
 
 ## License
 **Proprietary & Confidential.** All rights reserved. No part of this system may be copied, modified, or distributed without explicit written permission. Cloning or derivative reuse is strictly prohibited.
