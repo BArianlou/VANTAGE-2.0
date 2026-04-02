@@ -33,51 +33,87 @@ Fuel scarcity combines with rising entropy. Upward motion becomes unsustainable,
 
 ### Q4 — Crash ( −F , −S )
 Fuel is depleted and entropy begins to collapse inward. This produces a high‑density singularity where trajectories contract rapidly. Crashes are defined by negative curvature, compression, and loss of systemic coherence.
-## 3. The Four Regimes
+## 4. Boundary Equations
 
-The Fuel–Entropy plane is divided into four canonical regimes, each representing a distinct physical state of the system. These regimes are not descriptive labels but mathematically defined regions with predictable behavior and transition dynamics.
+The boundaries between regimes are defined by the sign changes of Fuel (F) and Entropy (S). These boundaries are not arbitrary thresholds but physical transition lines where the dominant vector flips and the system’s stability profile changes.
 
-### Q1 — Melt‑Up ( +F , −S )
-The system has abundant kinetic potential while structural friction is dissipating. This creates a low‑resistance environment where upward acceleration becomes self‑reinforcing. Melt‑Up regimes often exhibit runaway trajectories and high luminosity.
+### 4.1 Fuel Boundary (F = 0)
+The vertical axis represents the point at which kinetic potential transitions from positive to negative. Crossing this boundary changes the system’s ability to accelerate:
 
-### Q2 — Bull ( +F , +S )
-Fuel remains positive, but entropy is rising. The system can still advance, but friction is accumulating beneath the surface. This regime is characterized by strong but increasingly unstable growth.
+- F > 0 → system can generate upward motion
+- F < 0 → system cannot sustain upward motion
 
-### Q3 — Stall ( −F , +S )
-Fuel scarcity combines with rising entropy. Upward motion becomes unsustainable, and the system enters a state of structural drag. Stalls often precede regime transitions into higher‑density states.
+This boundary separates the upper regimes (Q1, Q2) from the lower regimes (Q3, Q4).
 
-### Q4 — Crash ( −F , −S )
-Fuel is depleted and entropy begins to collapse inward. This produces a high‑density singularity where trajectories contract rapidly. Crashes are defined by negative curvature, compression, and loss of systemic coherence.
-## 3. The Four Regimes
+### 4.2 Entropy Boundary (S = 0)
+The horizontal axis represents the transition between entropy accumulation and entropy dissipation:
 
-The Fuel–Entropy plane is divided into four canonical regimes, each representing a distinct physical state of the system. These regimes are not descriptive labels but mathematically defined regions with predictable behavior and transition dynamics.
+- S > 0 → friction is rising; disorder is increasing
+- S < 0 → friction is dissipating; system is clearing resistance
 
-### Q1 — Melt‑Up ( +F , −S )
-The system has abundant kinetic potential while structural friction is dissipating. This creates a low‑resistance environment where upward acceleration becomes self‑reinforcing. Melt‑Up regimes often exhibit runaway trajectories and high luminosity.
+This boundary separates the right-hand regimes (Q2, Q3) from the left-hand regimes (Q1, Q4).
 
-### Q2 — Bull ( +F , +S )
-Fuel remains positive, but entropy is rising. The system can still advance, but friction is accumulating beneath the surface. This regime is characterized by strong but increasingly unstable growth.
+### 4.3 Intersection Point (F = 0, S = 0)
+The origin is a neutral equilibrium point where neither vector dominates. It represents a metastable state that is highly sensitive to perturbations. Small changes in F or S can push the system into any of the four regimes.
+## 5. Transition Dynamics
 
-### Q3 — Stall ( −F , +S )
-Fuel scarcity combines with rising entropy. Upward motion becomes unsustainable, and the system enters a state of structural drag. Stalls often precede regime transitions into higher‑density states.
+Regime transitions occur when the system crosses a boundary where either Fuel (F) or Entropy (S) changes sign. These transitions are not instantaneous jumps but physical processes with measurable precursors, directional bias, and characteristic curvature changes.
 
-### Q4 — Crash ( −F , −S )
-Fuel is depleted and entropy begins to collapse inward. This produces a high‑density singularity where trajectories contract rapidly. Crashes are defined by negative curvature, compression, and loss of systemic coherence.
-## 3. The Four Regimes
+### 5.1 F-Driven Transitions
+When the system crosses F = 0, the dominant kinetic vector flips. This produces a curvature inversion:
 
-The Fuel–Entropy plane is divided into four canonical regimes, each representing a distinct physical state of the system. These regimes are not descriptive labels but mathematically defined regions with predictable behavior and transition dynamics.
+- +F → −F: upward trajectories lose acceleration and begin to flatten or decay.
+- −F → +F: stalled or compressed trajectories regain upward potential.
 
-### Q1 — Melt‑Up ( +F , −S )
-The system has abundant kinetic potential while structural friction is dissipating. This creates a low‑resistance environment where upward acceleration becomes self‑reinforcing. Melt‑Up regimes often exhibit runaway trajectories and high luminosity.
+F-driven transitions often manifest as slope changes in the trajectory manifold.
 
-### Q2 — Bull ( +F , +S )
-Fuel remains positive, but entropy is rising. The system can still advance, but friction is accumulating beneath the surface. This regime is characterized by strong but increasingly unstable growth.
+### 5.2 S-Driven Transitions
+Crossing S = 0 alters the system’s frictional environment:
 
-### Q3 — Stall ( −F , +S )
-Fuel scarcity combines with rising entropy. Upward motion becomes unsustainable, and the system enters a state of structural drag. Stalls often precede regime transitions into higher‑density states.
+- +S → −S: entropy dissipates, reducing drag and enabling acceleration.
+- −S → +S: entropy accumulates, increasing drag and destabilizing upward motion.
 
-### Q4 — Crash ( −F , −S )
-Fuel is depleted and entropy begins to collapse inward. This produces a high‑density singularity where trajectories contract rapidly. Crashes are defined by negative curvature, compression, and loss of systemic coherence.
+S-driven transitions typically produce volatility spikes and structural instability.
+
+### 5.3 Coupled Transitions
+When both F and S approach zero simultaneously, the system enters a metastable corridor where small perturbations can trigger large regime shifts. These coupled transitions are the most sensitive and often precede high-magnitude events.
+
+### 5.4 Transition Velocity
+The speed at which the system crosses a boundary determines the severity of the resulting regime shift. Slow crossings produce smooth curvature changes, while fast crossings generate discontinuities, shocks, or singularities.
+## 6. Curvature Signatures
+
+Each regime exhibits a characteristic curvature profile in the trajectory manifold. These curvature signatures allow the system to identify regime state, anticipate transitions, and detect instability before boundary crossings occur.
+
+### 6.1 Positive Curvature (Convex)
+Positive curvature indicates acceleration or expansion. It is most commonly observed in regimes with +F:
+
+- Q1 Melt‑Up: strong positive curvature with low drag
+- Q2 Bull: moderated positive curvature with rising drag
+
+Convexity increases as entropy dissipates or as fuel rises.
+
+### 6.2 Negative Curvature (Concave)
+Negative curvature indicates deceleration, compression, or collapse. It is associated with −F:
+
+- Q3 Stall: mild negative curvature as upward motion decays
+- Q4 Crash: extreme negative curvature approaching singularity
+
+Concavity deepens as entropy accumulates or fuel declines.
+
+### 6.3 Curvature Inversion
+A curvature inversion occurs when the second derivative of the trajectory changes sign. This is a leading indicator of regime transition:
+
+- convex → concave: loss of acceleration, often preceding Q2 → Q3 or Q1 → Q4 transitions
+- concave → convex: recovery of acceleration, often preceding Q3 → Q2 or Q4 → Q1 transitions
+
+Curvature inversion is one of the earliest detectable signals of systemic change.
+
+### 6.4 Curvature Density
+Curvature density measures how tightly trajectories cluster around a dominant curvature profile. High density indicates regime stability; low density indicates regime fragility.
+
+- High density: stable regime, predictable behavior
+- Low density: unstable regime, high transition probability
+
 ## 7. Instability Surfaces
 
 Instability surfaces are regions in the Fuel–Entropy plane where small perturbations produce disproportionately large changes in system behavior. These surfaces act as precursors to regime transitions and are critical for early detection of systemic stress.
@@ -272,60 +308,74 @@ Low C → unstable or transitioning regime
 
 ### 10.6 Multi‑Frame Consensus
 The system evaluates multiple time frames (short, medium, long) and selects the consensus regime. This prevents short‑term noise from overriding long‑term structure.
-## 10. Regime Classification Algorithm
+## 11. Regime Transition Map
 
-The regime classification algorithm determines the system’s current state by evaluating Fuel (F), Entropy (S), curvature, and drift dynamics. Classification is not based on thresholds but on the physical behavior of the system across multiple dimensions.
+The regime transition map defines the allowable paths between regimes and the physical conditions that trigger each transition. Transitions are not arbitrary; they follow directional rules governed by Fuel (F), Entropy (S), curvature, and drift dynamics.
 
-### 10.1 Primary Classification (Sign-Based)
-The primary regime is determined by the signs of F and S:
+### 11.1 Allowed Transitions
+The system can transition between adjacent regimes when one dominant vector changes sign:
 
-- F > 0, S < 0 → Q1 Melt‑Up
-- F > 0, S > 0 → Q2 Bull
-- F < 0, S > 0 → Q3 Stall
-- F < 0, S < 0 → Q4 Crash
+- Q1 → Q2: S crosses from negative to positive
+- Q2 → Q3: F crosses from positive to negative
+- Q3 → Q4: S crosses from positive to negative
+- Q4 → Q1: F crosses from negative to positive
 
-This provides the instantaneous regime state.
+These transitions represent the natural flow of system dynamics.
 
-### 10.2 Secondary Classification (Curvature-Based)
-Curvature refines the classification by identifying the system’s trajectory shape:
+### 11.2 Forbidden Transitions
+Direct diagonal transitions are physically forbidden because they require simultaneous sign flips:
 
-- κ > 0 → accelerating or expanding
-- κ < 0 → decelerating or compressing
-- κ ≈ 0 → neutral or unstable
+- Q1 ↛ Q3
+- Q2 ↛ Q4
 
-Curvature helps detect early transitions before F or S cross zero.
+Diagonal transitions would require both F and S to cross zero at the same instant, which is not physically realizable in continuous systems.
 
-### 10.3 Drift Vector Analysis
-The drift vector (dF/dt, dS/dt) determines the direction of regime movement:
+### 11.3 Transition Probability
+Transition probability is determined by the system’s proximity to boundaries and instability surfaces:
 
-- drift toward boundary → rising transition probability
-- drift deeper into regime → rising persistence probability
+P(transition) ∝ 1 / distance_to_boundary
 
-Drift direction is often more predictive than the current regime itself.
+As the system approaches a boundary, transition probability rises sharply.
 
-### 10.4 Instability Weighting
-Instability surfaces modify classification confidence:
+### 11.4 Transition Momentum
+Transition momentum measures how forcefully the system crosses a boundary:
 
-- high instability → low regime confidence
-- low instability → high regime confidence
+M = |dF/dt| + |dS/dt|
 
-Instability weighting prevents false positives during noisy periods.
+High momentum transitions produce:
 
-### 10.5 Regime Confidence Score
-The final classification is expressed as a confidence score:
+- sharper curvature changes  
+- higher volatility  
+- deeper penetration into the next regime  
 
-C = w₁(sign) + w₂(curvature) + w₃(drift) + w₄(instability)
+Low momentum transitions produce smoother, more stable shifts.
 
-where:
+### 11.5 Hysteresis Effects
+Regime transitions exhibit hysteresis: the path into a regime differs from the path out of it.
 
-- w₁, w₂, w₃, w₄ are adaptive weights
-- C ∈ [0,1]
+Examples:
 
-High C → stable regime  
-Low C → unstable or transitioning regime
+- Entering Q3 from Q2 requires fuel depletion; exiting Q3 toward Q2 requires fuel restoration.
+- Entering Q4 from Q3 requires entropy collapse; exiting Q4 toward Q1 requires entropy dissipation.
 
-### 10.6 Multi‑Frame Consensus
-The system evaluates multiple time frames (short, medium, long) and selects the consensus regime. This prevents short‑term noise from overriding long‑term structure.
+This asymmetry creates memory effects in the system.
+
+### 11.6 Transition Cascades
+Under high instability, transitions can cascade:
+
+Q2 → Q3 → Q4
+
+or
+
+Q4 → Q1 → Q2
+
+Cascades occur when the system crosses multiple boundaries in rapid succession due to:
+
+- high drift velocity  
+- strong instability gradients  
+- curvature collapse  
+
+Cascades are the highest‑magnitude events in the regime map.
 ## 12. Regime Geometry
 
 Regime geometry describes the spatial structure of the Fuel–Entropy plane, including the shape, curvature, and topology of each regime. This geometry determines how trajectories evolve, how boundaries are approached, and how transitions unfold.
