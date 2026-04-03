@@ -2247,21 +2247,6 @@ $$H = \Phi_{\text{boundary}} - \Phi_{\text{basin\_min}}$$
 
 **Regional Profile:**
 Q3 and Q4 basins typically exhibit the **highest barriers**, indicating deep systemic entrenchment.
-
-### 34.1 Definition of Global Flow Field
-
-A global flow field is a vector field defined over the entire manifold substrate:
-
-$$V_{\text{global}} = V(F, S, \kappa, I, D, \Phi)$$
-
-**Functional Representation:**
-* **Dominant drift directions:** The primary "currents" of the system.
-* **Long-range curvature influence:** How distant stressors warp local geometry.
-* **Basin-to-basin connectivity:** The "bridges" between different regimes.
-* **Global transition pressure:** The total force pushing the system toward a phase shift.
-
-Global flow fields represent the **“climate”** of the regime space.
-
 ### 32.3 Barrier Width
 Barrier width measures how far the system must travel against opposing forces:
 
