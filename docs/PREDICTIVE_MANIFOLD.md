@@ -35,34 +35,25 @@ The manifold supports multiple coordinate systems:
 Coordinate choice determines interpretability and stability.
 
 ---
-
 ## 4. Metric Structure
 
-The metric g defines:
+The metric $g$ defines the infinitesimal distance $ds$ between system states, governing how the manifold substrate stretches or compresses:
 
-- distances  
-- curvature  
-- geodesics  
-- deformation  
-- local stability  
+$$ds^2 = g_{ij} dx^i dx^j$$
 
-Metric evolution reflects changes in system geometry.
+**Where:**
+* **$g_{ij}$** is the **Metric Tensor** representing local geometry.
+* **$dx^i, dx^j$** are coordinate differentials in the manifold substrate.
 
----
+Metric evolution reflects the real-time warping of system geometry under systemic pressure.
 
 ## 5. Curvature Structure
 
-Curvature determines:
+Curvature is governed by the **Riemann Tensor** $R^i_{jkl}$, which determines how trajectories bend, focus, or diverge across the manifold:
 
-- local stability  
-- flow behavior  
-- attractor geometry  
-- transition likelihood  
-- boundary formation  
-
-Positive curvature → convergence  
-Negative curvature → divergence  
-Zero curvature → neutrality
+* **Positive Curvature ($R > 0$):** Convergence; trajectories funnel toward stable attractors (Stable Basins).
+* **Negative Curvature ($R < 0$):** Divergence; trajectories spread apart, increasing uncertainty (Expansion Zones).
+* **Zero Curvature ($R = 0$):** Neutrality; the manifold is "Flat" and trajectories follow linear paths.
 
 ---
 
@@ -511,19 +502,13 @@ Dimensional flow determines the manifold’s degrees of freedom.
 
 ## 36. Predictive Horizons
 
-Predictive horizons define how far ahead the manifold allows accurate prediction.
+The predictability horizon $H_p$ defines the maximum temporal or spatial distance before geodesic deviation overwhelms the forecast:
 
-They depend on:
+$$H_p \approx \frac{1}{\lambda_{max}} \ln \left( \frac{1}{\delta} \right)$$
 
-- instability density  
-- curvature smoothness  
-- drift coherence  
-- potential rigidity  
-- entropy structure  
-
-Short horizons → chaotic regions  
-Long horizons → stable regions
-
+**Dynamics:**
+* **Chaos Threshold:** When the maximum Lyapunov exponent $\lambda_{max} > 0$, the horizon truncates exponentially.
+* **Stability Limit:** When $\lambda_{max} \leq 0$, the horizon extends, allowing for high-fidelity long-range modeling.
 ---
 
 ## 37. Predictive Limits
@@ -611,18 +596,12 @@ These zones reduce predictive accuracy.
 
 ## 43. Manifold Pressure
 
-Manifold pressure is the internal force that drives geometric deformation.
+Manifold pressure $P$ is the internal force driving geometric deformation, arising from the accumulation of drift and instability. It is defined as the negative gradient of the potential landscape:
 
-It arises from:
+$$\mathbf{F}_{pressure} = -\nabla \Phi$$
 
-- drift accumulation  
-- instability density  
-- curvature concentration  
-- potential compression  
-- entropy collapse  
-
-High pressure → structural change.
-
+**Indicators:**
+High pressure gradients $\nabla \Phi$ indicate areas where the manifold is "straining" against its topological constraints, typically preceding a **Manifold Fracture (Section 45)**.
 ---
 
 ## 44. Manifold Stress
@@ -856,18 +835,12 @@ Asymmetries create directional bias in predictive flow.
 
 ## 59. Predictive Manifold Invariants
 
-Invariants remain constant under manifold evolution.
+Invariants anchor the system's long-term predictability by remaining constant under smooth manifold evolution.
 
-Examples include:
-
-- conserved curvature integrals  
-- stable topological classes  
-- persistent attractor indices  
-- entropy‑bounded regions  
-- dimensional constraints  
-
-Invariants anchor long‑term predictability.
-
+**Key Invariants:**
+* **Euler Characteristic ($\chi$):** Defines global connectivity and the number of regime "holes."
+* **Betti Numbers ($b_k$):** Quantify the number of $k$-dimensional voids or trapped states within the manifold.
+* **Chern Classes:** Describe the twisting and topological "winding" of the vector fields across the substrate.
 ---
 
 ## 60. Unified Predictive Manifold Synthesis
