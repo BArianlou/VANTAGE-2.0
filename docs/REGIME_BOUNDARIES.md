@@ -1722,18 +1722,6 @@ This determines:
 - drift divergence
 
 Transport reveals whether drift reinforces or opposes regime boundaries.
-### 27.3 Drift Transport
-Drift transport describes how the drift vector changes as it moves:
-
-D^i_;j = ∂_j D^i + Γ^i_jk D^k
-
-This determines:
-
-- drift acceleration  
-- drift rotation  
-- drift divergence  
-
-Transport reveals whether drift reinforces or opposes regime boundaries.
 
 ### 27.4 Curvature Transport
 Curvature transport describes how curvature evolves along trajectories:
