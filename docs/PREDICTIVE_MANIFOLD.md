@@ -861,10 +861,12 @@ Unified synthesis integrates all manifold components:
 The predictive manifold becomes a complete geometric engine for modeling system evolution.
 ---
 
+---
+
 ## ## VANTAGE 2.0 | STABILITY TOPOGRAPHY
 ### ### Geometric Mapping of Systemic Risk (Code 01)
 
-> **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones" using the layered substrate approach.
+> **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones."
 
 ![VANTAGE 2.0 Stability Topography](./assets/vantage_2_stability_topography.png)
 
