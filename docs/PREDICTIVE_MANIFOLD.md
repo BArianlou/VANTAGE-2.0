@@ -859,3 +859,26 @@ Unified synthesis integrates all manifold components:
 - transition dynamics  
 
 The predictive manifold becomes a complete geometric engine for modeling system evolution.
+---
+
+## ## VANTAGE 2.0 | STABILITY TOPOGRAPHY
+### ### Geometric Mapping of Systemic Risk (Code 01)
+
+> **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones" using the layered substrate approach.
+
+![VANTAGE 2.0 Stability Topography](./assets/vantage_2_stability_topography.png)
+
+---
+
+### **Topological Structure Analysis**
+
+| Feature | Coordinate State | Curvature ($R$) | Risk Level |
+| :--- | :--- | :--- | :--- |
+| **STABLE BASIN** | Low Friction / High Potential | Positive ($>0$) | **LOW** (Steady State) |
+| **NEUTRAL PLAIN** | Transitional Slope | Zero ($=0$) | **MEDIUM** (Transition) |
+| **FRACTURE RIDGE** | High Friction / Low Potential | Negative ($<0$) | **HIGH** (Imminent Shift) |
+
+**Geometric Phenomena:**
+* **Folding Event ($R_{spike}$):** The red-glow point where extreme curvature triggers a **Phase Space Jump**.
+* **Gravity Constant ($M$):** Determines the depth of the potential well and trajectory velocity.
+* **Metric Evolution ($M_{ev}$):** $\log \frac{3}{6} + ds_s = \left( \frac{1 - \alpha A + (s_n + n)}{V_{eff} + V \cdot V} \right)$
