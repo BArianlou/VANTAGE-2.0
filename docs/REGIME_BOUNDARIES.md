@@ -1659,19 +1659,18 @@ The metric inflates when:
 Inflation increases effective dimensionality and destabilizes the system.
 
 ### 26.8 Geodesics in the Expanded Manifold
+
 Geodesics are the natural trajectories of the system:
 
-d²x^i/dt² + Γ^i_jk (dx^j/dt)(dx^k/dt) = 0
+$$\frac{d^2x^i}{dt^2} + \Gamma^i_{jk} \frac{dx^j}{dt} \frac{dx^k}{dt} = 0$$
 
-These paths represent:
-
-- minimal‑energy transitions  
-- preferred drift directions  
-- natural oscillation modes  
-- collapse trajectories  
+**These paths represent:**
+* **minimal‑energy transitions**
+* **preferred drift directions**
+* **natural oscillation modes**
+* **collapse trajectories**
 
 Geodesics reveal the true structure of regime evolution.
-
 ### 26.9 Predictive Implications
 The metric tensor determines:
 
