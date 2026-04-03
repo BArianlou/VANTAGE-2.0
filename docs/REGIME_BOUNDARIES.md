@@ -1616,18 +1616,17 @@ The full metric includes:
 Cross‑terms (g_Fκ, g_SI, etc.) encode nonlinear coupling.
 
 ### 26.4 Metric Curvature
+
 Curvature is derived from the metric using the Riemann curvature tensor:
 
-R_ijkl = ∂_k Γ_ijl − ∂_l Γ_ijk + Γ_imk Γ_mjl − Γ_iml Γ_mjk
+$$R_{ijkl} = \partial_k \Gamma_{ijl} - \partial_l \Gamma_{ijk} + \Gamma_{imk} \Gamma^m_{jl} - \Gamma_{iml} \Gamma^m_{jk}$$
 
-High curvature indicates:
+**High curvature indicates:**
+* **Instability:** Rapid divergence of trajectories.
+* **Sensitivity:** Small input changes lead to large state shifts.
+* **Chaos potential:** Non-linear regime transitions.
 
-- instability  
-- sensitivity  
-- chaos potential  
-
-Low curvature indicates stability and predictability.
-
+**Low curvature indicates:** stability and predictability.
 ### 26.5 Metric Determinant
 The determinant of the metric:
 
