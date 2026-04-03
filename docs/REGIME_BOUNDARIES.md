@@ -2247,6 +2247,7 @@ $$H = \Phi_{\text{boundary}} - \Phi_{\text{basin\_min}}$$
 
 **Regional Profile:**
 Q3 and Q4 basins typically exhibit the **highest barriers**, indicating deep systemic entrenchment.
+
 ### 32.3 Barrier Width
 Barrier width measures how far the system must travel against opposing forces:
 
