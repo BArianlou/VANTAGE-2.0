@@ -1585,31 +1585,34 @@ The metric tensor g encodes:
 - how potential surfaces deform  
 
 Without a metric, higher‑dimensional behavior cannot be measured or predicted.
-
 ### 26.2 Metric Definition
+
 The metric tensor is defined as:
 
-g_ij = ∂E_i/∂x_j
+$$g_{ij} = \frac{\partial E_i}{\partial x_j}$$
 
-where:
-
-- E_i are the embedded coordinates (F, S, κ, I, D, Φ)  
-- x_j are the base coordinates (F, S)
+**Where:**
+* **$E_i$** are the embedded coordinates $(F, S, \kappa, I, D, \Phi)$
+* **$x_j$** are the base coordinates $(F, S)$
 
 This metric captures how each latent dimension stretches or compresses space.
 
 ### 26.3 Metric Components
-The full metric includes:
 
-- g_FF: sensitivity of Fuel to itself  
-- g_SS: sensitivity of Entropy to itself  
-- g_FS: cross‑sensitivity between Fuel and Entropy  
-- g_κκ: curvature scaling  
-- g_II: instability scaling  
-- g_DD: drift scaling  
-- g_ΦΦ: potential scaling  
+The full metric tensor $g_{ij}$ consists of the following primary components:
 
-Cross‑terms (g_Fκ, g_SI, etc.) encode nonlinear coupling.
+| Component | Description |
+| :--- | :--- |
+| $g_{FF}$ | Sensitivity of **Fuel** to itself |
+| $g_{SS}$ | Sensitivity of **Entropy** to itself |
+| $g_{FS}$ | **Cross-sensitivity** between Fuel and Entropy |
+| $g_{\kappa\kappa}$ | **Curvature** scaling |
+| $g_{II}$ | **Instability** scaling |
+| $g_{DD}$ | **Drift** scaling |
+| $g_{\Phi\Phi}$ | **Potential** scaling |
+
+**Coupling Effects:**
+Cross-terms such as $g_{F\kappa}$ and $g_{SI}$ encode the **nonlinear coupling** between the base state and the higher-order geometric dimensions.
 
 ### 26.4 Metric Curvature
 
@@ -1718,70 +1721,69 @@ This determines:
 Transport reveals whether drift reinforces or opposes regime boundaries.
 
 ### 27.4 Curvature Transport
+
 Curvature transport describes how curvature evolves along trajectories:
 
-κ_;i = ∂_i κ + Γ^m_im κ_m
+$$\nabla_i \kappa = \partial_i \kappa + \Gamma^m_{im} \kappa_m$$
 
-This governs:
+**This governs:**
+* **Curvature inversion:** Sign-flip transitions.
+* **Curvature oscillation:** Periodic instability waves.
+* **Curvature collapse:** Sudden manifold flattening or tearing.
 
-- curvature inversion  
-- curvature oscillation  
-- curvature collapse  
-
-Curvature transport is a leading indicator of instability.
+Curvature transport serves as a **leading indicator** of systemic instability.
 
 ### 27.5 Instability Transport
+
 Instability transport describes how instability gradients propagate:
 
-I_;i = ∂_i I + Γ^m_im I_m
+$$\nabla_i I = \partial_i I + \Gamma^m_{im} I_m$$
 
-This determines:
+**This determines:**
+* **Instability clustering:** Localized hotspots.
+* **Instability waves:** Periodic systemic pulses.
+* **Instability dissipation:** Rate of entropy decay.
 
-- instability clustering  
-- instability waves  
-- instability dissipation  
-
-Transport reveals where chaos will emerge.
+Transport reveals where **chaos will emerge** within the manifold.
 
 ### 27.6 Potential Transport
+
 Potential transport describes how potential gradients evolve:
 
-Φ_;i = ∂_i Φ + Γ^m_im Φ_m
+$$\nabla_i \Phi = \partial_i \Phi + \Gamma^m_{im} \Phi_m$$
 
-This governs:
+**This governs:**
+* **Basin deformation:** Structural shifts in regime stability.
+* **Barrier reshaping:** Changes in transition difficulty.
+* **Well deepening or flattening:** Relative persistence of states.
 
-- basin deformation  
-- barrier reshaping  
-- well deepening or flattening  
-
-Potential transport determines long‑term regime structure.
-
+Potential transport determines the **long-term regime structure** of the manifold.
 ### 27.7 Parallel Transport
+
 Parallel transport defines how vectors maintain direction along curved paths:
 
-V^i_;j = 0
+$$\nabla_j V^i = 0$$
 
-Parallel transport reveals:
+**Parallel transport reveals:**
+* **Natural drift alignment:** Trajectories that require zero external force.
+* **Stable oscillation modes:** Inherent periodic rhythms.
+* **Collapse trajectories:** Geometric "gravity" pulling toward a regime shift.
+* **Expansion trajectories:** Natural dispersion of system states.
 
-- natural drift alignment  
-- stable oscillation modes  
-- collapse trajectories  
-- expansion trajectories  
-
-It is the backbone of geodesic evolution.
+It is the **backbone** of geodesic evolution.
 
 ### 27.8 Torsion
-Torsion measures the twisting of the manifold:
 
-T^i_jk = Γ^i_jk − Γ^i_kj
+Torsion measures the "twisting" of the manifold geometry:
 
-Nonzero torsion indicates:
+$$T^i_{jk} = \Gamma^i_{jk} - \Gamma^i_{kj}$$
 
-- asymmetric drift  
-- directional bias  
-- rotational instability  
+**Nonzero torsion indicates:**
+* **Asymmetric drift:** Force acting unevenly across dimensions.
+* **Directional bias:** Preferred rotational orientation.
+* **Rotational instability:** Circular "churn" within a regime.
 
-Torsion is rare but appears near Q4 singularity and Q1 expansion zones.
+Torsion is rare but appears specifically near **Q4 singularity** and **Q1 expansion zones**.
 
 ### 27.9 Predictive Implications
 Connection coefficients determine:
@@ -1798,17 +1800,18 @@ The connection is the dynamic skeleton of the predictive manifold.
 Geodesic flow describes the natural motion of the system through the predictive manifold when no external forces act upon it. These flows represent the “straightest possible paths” in a curved, multi‑dimensional space and reveal the intrinsic structure of regime evolution.
 
 ### 28.1 Definition of Geodesic Flow
-A geodesic is a trajectory that satisfies:
 
-d²x^i/dt² + Γ^i_jk (dx^j/dt)(dx^k/dt) = 0
+A geodesic is a trajectory that satisfies the second-order differential equation:
 
-Geodesic flow is the evolution of these trajectories over time.
+$$\frac{d^2x^i}{dt^2} + \Gamma^i_{jk} \frac{dx^j}{dt} \frac{dx^k}{dt} = 0$$
 
-Geodesics represent:
+**Geodesic flow** is the evolution of these trajectories over time.
 
-- minimal‑energy transitions  
-- natural drift paths  
-- preferred collapse or expansion routes  
+**Geodesics represent:**
+* **Minimal-energy transitions:** The path of least resistance.
+* **Natural drift paths:** Inherent motion of the system state.
+* **Preferred collapse or expansion routes:** Geometric "gravity" toward regime shifts.
+
 
 ### 28.2 Physical Interpretation
 In the Fuel–Entropy manifold:
@@ -1821,20 +1824,23 @@ In the Fuel–Entropy manifold:
 Geodesics are the “default behavior” of the system.
 
 ### 28.3 Geodesic Deviation
-Geodesic deviation measures how nearby trajectories diverge:
 
-D²ξ^i/dt² = −R^i_jkl (dx^j/dt)(dx^k/dt) ξ^l
+Geodesic deviation measures how nearby trajectories diverge or converge, governed by the Jacobi equation:
 
-Where ξ is the separation vector.
+$$\frac{D^2\xi^i}{dt^2} = -R^i_{jkl} \left( \frac{dx^j}{dt} \right) \left( \frac{dx^k}{dt} \right) \xi^l$$
 
-Deviation reveals:
+**Where:**
+* **$\xi^i$** is the **separation vector** between two neighboring trajectories.
+* **$R^i_{jkl}$** is the **Riemann curvature tensor**, representing the "force" of the manifold.
 
-- chaos potential  
-- instability clustering  
-- sensitivity to initial conditions  
+**Deviation reveals:**
+* **Chaos potential:** Rate of trajectory separation.
+* **Instability clustering:** Areas where system states become unpredictable.
+* **Sensitivity to initial conditions:** Small offsets leading to large state shifts.
 
-Positive deviation → divergence (chaos)  
-Negative deviation → convergence (stability)
+**Geometric Indicators:**
+* **Positive deviation ($\to$):** Divergence (Chaos/Expansion).
+* **Negative deviation ($\to$):** Convergence (Stability/Collapse).
 
 ### 28.4 Stable vs Unstable Geodesics
 Stable geodesics:
@@ -2230,14 +2236,31 @@ A potential barrier is a region where:
 Barriers create resistance to regime transitions.
 
 ### 32.2 Barrier Height
-Barrier height determines how difficult it is to escape a basin:
 
-H = Φ_boundary − Φ_basin_min
+Barrier height determines the energy required to escape a basin and transition between regimes:
 
-High barriers → strong stability  
-Low barriers → fragile stability
+$$H = \Phi_{\text{boundary}} - \Phi_{\text{basin\_min}}$$
 
-Q3 and Q4 basins typically have the highest barriers.
+**Stability Indicators:**
+* **High barriers ($\uparrow$):** Strong stability; the system is resistant to external shocks.
+* **Low barriers ($\downarrow$):** Fragile stability; the system is prone to unintended regime shifts.
+
+**Regional Profile:**
+Q3 and Q4 basins typically exhibit the **highest barriers**, indicating deep systemic entrenchment.
+
+### 34.1 Definition of Global Flow Field
+
+A global flow field is a vector field defined over the entire manifold substrate:
+
+$$V_{\text{global}} = V(F, S, \kappa, I, D, \Phi)$$
+
+**Functional Representation:**
+* **Dominant drift directions:** The primary "currents" of the system.
+* **Long-range curvature influence:** How distant stressors warp local geometry.
+* **Basin-to-basin connectivity:** The "bridges" between different regimes.
+* **Global transition pressure:** The total force pushing the system toward a phase shift.
+
+Global flow fields represent the **“climate”** of the regime space.
 
 ### 32.3 Barrier Width
 Barrier width measures how far the system must travel against opposing forces:
@@ -2492,20 +2515,34 @@ Flow coherence measures how aligned trajectories are across large regions:
 Coherence is highest in Q3 and lowest near Q4 singularity.
 
 ### 34.4 Flow Divergence
-Flow divergence measures how trajectories spread apart:
 
-div(V_global) > 0 → expansion  
-div(V_global) < 0 → compression  
+Flow divergence measures the rate at which trajectories spread apart or converge within the manifold:
 
-Divergence spikes in Q1; compression spikes in Q4.
+$$\text{div}(\mathbf{V}_{\text{global}}) > 0 \implies \text{Expansion}$$
+$$\text{div}(\mathbf{V}_{\text{global}}) < 0 \implies \text{Compression}$$
+
+**Systemic Indicators:**
+* **Divergence Spikes (Q1):** High growth and dispersion; rapid regime expansion.
+* **Compression Spikes (Q4):** High density and collapse; trajectories funneling into a singularity.
+
+Flow divergence serves as a **primary metric** for systemic stability and density shifts.
+
 
 ### 34.5 Flow Curl
-Flow curl measures rotational structure:
 
-curl(V_global) ≠ 0 → rotational drift  
-curl(V_global) = 0 → gradient‑aligned drift  
+Flow curl measures the rotational structure and vorticity of the global flow field:
 
-Rotational drift appears near resonance zones and oscillatory regimes.
+$$\text{curl}(\mathbf{V}_{\text{global}}) \neq 0 \implies \text{Rotational Drift}$$
+$$\text{curl}(\mathbf{V}_{\text{global}}) = 0 \implies \text{Gradient-Aligned Drift}$$
+
+**Systemic Indicators:**
+* **Rotational Drift:** Indicates "churn," systemic cycles, or hidden feedback loops.
+* **Gradient-Aligned Drift:** Indicates a direct, efficient path toward a potential minimum.
+
+
+
+**Regional Profile:**
+Rotational drift is a primary characteristic of **resonance zones** and **oscillatory regimes** within the manifold.
 
 ### 34.6 Flow Channels
 Global flow organizes into channels:
@@ -2683,27 +2720,17 @@ High P → transition likely
 Low P → regime persistence
 
 ### 36.2 Pressure Components
-Transition pressure is composed of four primary components:
 
-1. **Drift Pressure (P_D)**  
-   - outward or inward acceleration  
-   - strongest in Q1 and Q4  
+Transition pressure is composed of four primary systemic components:
 
-2. **Curvature Pressure (P_κ)**  
-   - curvature oscillation or collapse  
-   - strongest near regime boundaries  
+* **Drift Pressure ($P_D$):** Outward or inward acceleration; strongest in **Q1** and **Q4**.
+* **Curvature Pressure ($P_{\kappa}$):** Curvature oscillation or collapse; strongest near **regime boundaries**.
+* **Instability Pressure ($P_I$):** Clustering, waves, or spikes; strongest near **chaotic zones**.
+* **Potential Pressure ($P_{\Phi}$):** Flattening or steepening of potential wells; strongest near **catastrophes**.
 
-3. **Instability Pressure (P_I)**  
-   - clustering, waves, or spikes  
-   - strongest near chaotic zones  
+**Total Systemic Pressure:**
 
-4. **Potential Pressure (P_Φ)**  
-   - flattening or steepening of wells  
-   - strongest near catastrophes  
-
-Total pressure is:
-
-P_total = P_D + P_κ + P_I + P_Φ
+$$P_{\text{total}} = P_D + P_{\kappa} + P_I + P_{\Phi}$$
 
 ### 36.3 Pressure Accumulation
 Pressure accumulates when:
@@ -2933,41 +2960,43 @@ Interpretation:
 Q4 collapse often reduces χ; Q1 expansion often increases it.
 
 ### 38.3 Betti Numbers
-Betti numbers b_k count the number of k‑dimensional holes:
 
-- b_0: connected components  
-- b_1: loops  
-- b_2: voids  
-- b_3+: higher‑dimensional cavities  
+Betti numbers $b_k$ quantify the topological complexity of the manifold by counting $k$-dimensional holes:
 
-High Betti numbers indicate:
+* **$b_0$:** Connected components (Systemic clusters)
+* **$b_1$:** 1D-Loops (Circular drift/Cycles)
+* **$b_2$:** 2D-Voids (Trapped states/Basins)
+* **$b_3+$:** Higher‑dimensional cavities (Complex coupling)
 
-- complex folding  
-- multiple transition pathways  
-- chaotic or metastable structure  
-
-Betti numbers spike near Q1 and Q4 edges.
+**Topological Indicators:**
+* **High Betti Numbers:** Complex folding, multiple transition pathways, and metastable structures.
+* **Regional Profile:** Spikes occur near **Q1 expansion** and **Q4 singularity** edges.
 
 ### 38.4 Homology Groups
-Homology groups classify the manifold’s holes and cavities:
 
-H_k = cycles_k / boundaries_k
+Homology groups $H_k$ provide a more rigorous algebraic description of the manifold's shape:
 
-Homology determines:
+$$H_k(M) = Z_k(M) / B_k(M)$$
 
-- which transitions are topologically allowed  
-- which transitions require reconfiguration  
-- where metastable pockets can form  
-
-Homology is the “skeleton” of regime topology.
+**Functional Impact:**
+* **Cycles ($Z_k$):** Closed trajectories or invariant sets.
+* **Boundaries ($B_k$):** Regions that "fill" the cycles, indicating stability.
+* **Result:** Non-trivial homology identifies structural "gaps" where system state can be lost or trapped.
 
 ### 38.5 Fundamental Group
-The fundamental group π_1 describes the manifold’s loop structure:
 
-- trivial π_1 → simple, stable topology  
-- nontrivial π_1 → loops, cycles, oscillations  
+The fundamental group $\pi_1$ describes the manifold’s connectivity and loop structure:
 
-Nontrivial π_1 is characteristic of Q2 oscillatory regimes.
+$$\pi_1(M) = \{ [ \gamma ] \mid \gamma \text{ is a loop in } M \}$$
+
+**Topological Indicators:**
+* **Trivial $\pi_1 \implies$** Simple, stable topology; every path can be shrunk to a point.
+* **Nontrivial $\pi_1 \implies$** Presence of loops, cycles, and persistent oscillations.
+
+
+
+**Regional Profile:**
+Nontrivial $\pi_1$ is a defining characteristic of **Q2 oscillatory regimes**, where the system state is topologically forced into cyclic behavior.
 
 ### 38.6 Topological Defects
 Topological defects occur when:
@@ -3272,25 +3301,23 @@ The predictability horizon is the boundary between knowledge and uncertainty.
 Uncertainty propagation describes how small variations in initial conditions, drift, curvature, or instability spread through the predictive manifold over time. It determines how errors grow, how forecasts degrade, and where uncertainty concentrates or dissipates.
 
 ### 41.1 Definition of Uncertainty Propagation
-Uncertainty propagation is the evolution of an initial uncertainty vector ξ through the manifold:
 
-dξ^i/dt = J^i_j ξ^j
+Uncertainty propagation is the evolution of an initial uncertainty vector $\xi$ through the manifold substrate:
 
-Where J is the Jacobian of the flow field.
+$$\frac{d\xi^i}{dt} = J^i_j \xi^j$$
 
-Uncertainty grows when:
+**Where:**
+* **$J^i_j$** is the **Jacobian** of the global flow field, representing local linear sensitivity.
+* **$\xi^i$** represents the **deviation vector** in state space.
 
-- curvature oscillates  
-- instability amplifies  
-- drift diverges  
-- topology becomes unstable  
+**Propagation Dynamics:**
 
-Uncertainty shrinks when:
+| Trend | Driver | Indicators |
+| :--- | :--- | :--- |
+| **Growth ($\uparrow$)** | Systemic Divergence | Curvature oscillation, instability amplification, or drift divergence. |
+| **Decay ($\downarrow$)** | Systemic Convergence | Curvature stabilization, instability dissipation, or dimensionality compression. |
 
-- curvature stabilizes  
-- drift converges  
-- instability dissipates  
-- dimensionality compresses  
+Uncertainty propagation is the **primary metric** for predicting regime transition windows.
 
 ### 41.2 Sources of Uncertainty
 Uncertainty arises from:
@@ -3327,23 +3354,18 @@ Propagation can be:
 Nonlinear propagation dominates near regime boundaries.
 
 ### 41.4 Lyapunov Structure
-Lyapunov exponents λ_i determine uncertainty growth:
 
-- λ_i < 0 → convergence  
-- λ_i = 0 → neutral stability  
-- λ_i > 0 → divergence  
+Lyapunov exponents $\lambda_i$ determine the rate of uncertainty growth and the predictability horizon of the manifold:
 
-Positive λ_i indicate chaos and short predictability horizons.
+$$\lambda_i < 0 \implies \text{Convergence (Stability)}$$
+$$\lambda_i = 0 \implies \text{Neutral Stability (Steady State)}$$
+$$\lambda_i > 0 \implies \text{Divergence (Chaos)}$$
 
-### 41.5 Uncertainty Channels
-Uncertainty flows along preferred geometric channels:
+**Systemic Implications:**
+* **Positive $\lambda_i$:** Indicates high sensitivity to initial conditions and **short predictability horizons**.
+* **Spectrum Analysis:** The full set of exponents $(\lambda_1, \lambda_2, \dots, \lambda_n)$ defines the "Lyapunov Spectrum" of the regime.
 
-- drift‑aligned channels  
-- curvature‑aligned channels  
-- instability‑aligned channels  
-- folded manifold channels  
-
-Channels determine where uncertainty concentrates.
+Lyapunov structure is the **primary metric** for quantifying the onset of chaotic regime shifts.
 
 ### 41.6 Uncertainty Barriers
 Uncertainty barriers occur where:
@@ -3421,12 +3443,17 @@ High ∇E → rapid disorder growth
 Low ∇E → stable, predictable regions
 
 ### 42.3 Entropy Curvature
-Entropy curvature κ_E measures how entropy bends through the manifold:
 
-- positive κ_E → entropy focusing  
-- negative κ_E → entropy spreading  
+Entropy curvature $\kappa_E$ measures the geometric "bending" of entropy density as it propagates through the manifold substrate:
 
-Focusing accelerates transitions; spreading stabilizes regimes.
+$$\kappa_E > 0 \implies \text{Entropy Focusing}$$
+$$\kappa_E < 0 \implies \text{Entropy Spreading}$$
+
+**Systemic Impacts:**
+* **Focusing ($\kappa_E \uparrow$):** Concentrates entropy into narrow channels, **accelerating transitions** and regime shifts.
+* **Spreading ($\kappa_E \downarrow$):** Distributes entropy across the manifold, **stabilizing regimes** and slowing the rate of change.
+
+Entropy curvature is a **primary indicator** of impending structural reorganization.
 
 ### 42.4 Entropy Flow
 Entropy flows along:
@@ -3798,16 +3825,21 @@ A boundary is detected when one or more of the following occur:
 Detection criteria allow early identification of transitions.
 
 ### 45.5 Boundary Strength
-Boundary strength S_b is determined by:
 
-- curvature density  
-- barrier height  
-- instability magnitude  
-- drift alignment  
-- topological rigidity  
+Boundary strength $S_b$ is a composite metric that determines the persistence and permeability of a regime transition zone:
 
-High S_b → strong, persistent boundary  
-Low S_b → weak, permeable boundary
+$$S_b = f(\kappa_{\rho}, H, I_{mag}, D_{align}, \mathcal{R}_{top})$$
+
+**Primary Determinants:**
+* **Curvature Density ($\kappa_{\rho}$):** Local geometric warping intensity.
+* **Barrier Height ($H$):** The potential energy required for escape.
+* **Instability Magnitude ($I_{mag}$):** The amplitude of local fluctuations.
+* **Drift Alignment ($D_{align}$):** The vector coincidence with the boundary normal.
+* **Topological Rigidity ($\mathcal{R}_{top}$):** Resistance to structural reconfiguration.
+
+**Stability Indicators:**
+* **High $S_b \implies$** Strong, **persistent boundary**; prevents regime leakage.
+* **Low $S_b \implies$** Weak, **permeable boundary**; indicates impending transition.
 
 ### 45.6 Boundary Permeability
 Permeability measures how easily trajectories cross a boundary:
