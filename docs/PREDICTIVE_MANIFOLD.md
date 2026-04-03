@@ -863,12 +863,14 @@ The predictive manifold becomes a complete geometric engine for modeling system 
 
 ---
 
+---
+
 ## ## VANTAGE 2.0 | STABILITY TOPOGRAPHY
 ### ### Geometric Mapping of Systemic Risk (Code 01)
 
 > **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones."
 
-![VANTAGE 2.0 Stability Topography](./assets/vantage_2_stability_topography.png)
+![VANTAGE 2.0 Stability Topography](./assets/vantage_2_stability_topography.png.png)
 
 ---
 
@@ -884,3 +886,5 @@ The predictive manifold becomes a complete geometric engine for modeling system 
 * **Folding Event ($R_{spike}$):** The red-glow point where extreme curvature triggers a **Phase Space Jump**.
 * **Gravity Constant ($M$):** Determines the depth of the potential well and trajectory velocity.
 * **Metric Evolution ($M_{ev}$):** $\log \frac{3}{6} + ds_s = \left( \frac{1 - \alpha A + (s_n + n)}{V_{eff} + V \cdot V} \right)$
+
+---
