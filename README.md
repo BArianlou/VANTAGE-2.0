@@ -1,3 +1,30 @@
+# VANTAGE 2.0 | Predictive Systems Engine
+### (Kinetics + Entropy + Time)
+
+> **Architectural Status:** Operational. This repository contains the **PNSM (Physics-Native Systems Modeling)** framework, designed to map systemic trajectories across a multidimensional predictive manifold.
+
+![VANTAGE 2.0 Compass](./assets/vantage_2_compass_high_fid.png)
+
+---
+
+## 🧭 The VANTAGE 2.0 Compass
+The Compass is the primary visual telemetry for the engine. It maps the **Drift Vector ($\mathbf{D}$)** calculated by the core logic into four distinct systemic regimes:
+
+| Regime | Systemic State | Strategic Action | Angle ($\Theta$) |
+| :--- | :--- | :--- | :--- |
+| **MELT-UP** | High Fuel + High Speed | **Aggressive Long** | $0 \to \pi/2$ |
+| **BULL TREND** | High Fuel + Low Speed | **Leveraged Long** | $-\pi/2 \to 0$ |
+| **STALL / ROT** | Low Fuel + Low Speed | **Cash / Yield** | $-\pi \to -\pi/2$ |
+| **CRASH** | Low Fuel + High Speed | **Hard Short** | $\pi/2 \to \pi$ |
+
+---
+
+## 🛠 Core Components
+* **[Normalization Substrate](./NORMALIZATION_SUBSTRATE.md):** Signal stabilization and invariant enforcement.
+* **[Predictive Manifold](./PREDICTIVE_MANIFOLD.md):** 60-section geometric modeling of state evolution.
+* **[Regime Boundaries](./REGIME_BOUNDARIES.md):** Mathematical definitions of phase transitions.
+* **[Drift Engine](./drift_engine.py):** Python implementation of state-vector velocity.
+
 # VANTAGE 2.0
 ![Status](https://img.shields.io/badge/Status-Proprietary-red)
 ![Architecture](https://img.shields.io/badge/Architecture-Physics--Native-blue)
