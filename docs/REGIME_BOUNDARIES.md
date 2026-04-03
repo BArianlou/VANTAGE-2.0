@@ -1,3 +1,8 @@
+## Systemic Metric Specification
+**Manifold Substrate:** $\mathcal{M} \in \mathbb{R}^6$ (F, S, \kappa, I, D, \Phi)
+**Metric Signature:** $(+, +, -, -, -, -)$
+**Connection Type:** Levi-Civita with Non-Zero Torsion $T^i_{jk}$
+**Stability Threshold:** $\lambda_{max} < 0$
 # Regime Boundaries
 
 ## 1. Overview
