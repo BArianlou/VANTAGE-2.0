@@ -1532,19 +1532,15 @@ Latent dimensions interact through coupling terms:
 - I ↔ D: instability accelerates drift  
 
 These couplings create nonlinear feedback loops.
-
 ### 25.5 Dimensional Curvature
 The manifold’s curvature increases with dimensionality:
+$$K_{\text{total}} = K_{FS} + K_{\kappa} + K_{I} + K_{D} + K_{\Phi}$$
+**High total curvature indicates:**
+* **High sensitivity:** Trajectories diverge rapidly.
+* **High instability:** The manifold is prone to tearing.
+* **High chaos potential:** Non-linear regime transitions.
 
-K_total = K_FS + K_κ + K_I + K_D + K_Φ
-
-High total curvature indicates:
-
-- high sensitivity  
-- high instability  
-- high chaos potential  
-
-Low curvature indicates stability and predictability.
+**Low curvature indicates:** stability and predictability.
 
 ### 25.6 Dimensional Compression
 Dimensional compression occurs when:
