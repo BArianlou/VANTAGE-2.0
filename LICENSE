@@ -1,5 +1,19 @@
-Proprietary & Confidential
+# Proprietary & Confidential Notice
 
-All rights reserved. No part of this software, documentation, or associated materials may be copied, modified, merged, published, distributed, sublicensed, or used for commercial purposes without explicit written permission from the owner.
+**© 2026 Bijan Arianlou. All rights reserved.**
 
-Unauthorized use, reproduction, or distribution is strictly prohibited.
+This software, including all **PNSM (Physics-Native Systems Modeling)** logic, **VANTAGE 2.0** architectures, and associated normalization substrates, is the sole intellectual property of the owner. 
+
+### 1. Non-Commercial Public License (Internal Use Only)
+Permission is granted to individuals to view, clone, and study this repository for educational, research, or peer-review purposes only. This permission does not constitute a transfer of ownership or a license for commercial application.
+
+### 2. Prohibited Actions
+* **Redistribution:** You may not redistribute, mirror, or republish this software or documentation in any form without explicit written consent.
+* **Commercial Exploitation:** Use of this logic, pseudocode, or architectural framework for commercial trading, institutional system design, or for-profit services is strictly prohibited.
+* **AI Model Training:** The use of this repository's contents to train, fine-tune, or prompt-engineer external AI models or Large Language Models (LLMs) is strictly prohibited.
+
+### 3. Derivative Works
+Creation of derivative works based on the Manifold Geometry or Regime Boundary logic contained herein is prohibited without prior authorization.
+
+### 4. Enforcement
+Any unauthorized use, reproduction, or distribution of these materials constitutes a violation of international intellectual property laws and will be subject to immediate legal action.
