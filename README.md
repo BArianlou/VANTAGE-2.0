@@ -3,7 +3,7 @@
 
 > **Architectural Status:** Operational. This repository contains the **PNSM (Physics-Native Systems Modeling)** framework, designed to map systemic trajectories across a multidimensional predictive manifold.
 
-![VANTAGE 2.0 Compass](./assets/vantage_2_compass_high_fid.png)
+![VANTAGE 2.0 Compass](./assets/vantage_2_compass_high_fid.png.png)
 
 ---
 
