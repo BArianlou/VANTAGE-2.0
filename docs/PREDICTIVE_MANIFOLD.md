@@ -871,7 +871,7 @@ The predictive manifold becomes a complete geometric engine for modeling system 
 > **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones."
 
 
-![VANTAGE 2.0 Stability Topography](./assets/v2_stability.png)
+![VANTAGE 2.0 Stability Topography](./assets/v2_stability.png.png)
 
 ---
 
