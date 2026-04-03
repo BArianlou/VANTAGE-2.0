@@ -2239,7 +2239,7 @@ Barriers create resistance to regime transitions.
 
 Barrier height determines the energy required to escape a basin and transition between regimes:
 
-$$H = \Phi_{\text{boundary}} - \Phi_{\text{basin\_min}}$$
+$$H = \Phi_{\text{boundary}} - \Phi_{\text{basin min}}$$
 
 **Stability Indicators:**
 * **High barriers ($\uparrow$):** Strong stability; the system is resistant to external shocks.
@@ -2247,7 +2247,6 @@ $$H = \Phi_{\text{boundary}} - \Phi_{\text{basin\_min}}$$
 
 **Regional Profile:**
 Q3 and Q4 basins typically exhibit the **highest barriers**, indicating deep systemic entrenchment.
-
 ### 32.3 Barrier Width
 Barrier width measures how far the system must travel against opposing forces:
 
