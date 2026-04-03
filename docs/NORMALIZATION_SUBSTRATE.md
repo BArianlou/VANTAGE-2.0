@@ -74,17 +74,15 @@ Operators transform raw signals into manifold‑ready form.
 
 ## 6. Scaling Rules
 
-Scaling rules define how variables are compressed or expanded.
+The scaling operator $S_{\sigma}$ maps a raw signal $x$ to a normalized coordinate $\hat{x}$ within a defined manifold domain:
 
-Common scaling forms:
+$$\hat{x} = \sigma \cdot \frac{x - \mu}{\sqrt{\text{Var}(x) + \epsilon}}$$
 
-- linear scaling  
-- logarithmic scaling  
-- exponential scaling  
-- power‑law scaling  
-- adaptive scaling  
+**Where:**
+* **$\sigma$** is the scaling coefficient aligned with the manifold's curvature density.
+* **$\epsilon$** is the stability constant to prevent division-by-zero during entropy spikes ($S \to \infty$).
 
-Scaling ensures comparability across variables.
+Scaling ensures comparability across heterogeneous variables before manifold embedding.
 
 ---
 
@@ -138,16 +136,11 @@ Smoothing prepares signals for stable embedding.
 
 ## 10. Standardization Rules
 
-Standardization enforces:
+Standardization enforces a stationary distribution for all manifold inputs to prevent geometric bias:
 
-- zero mean  
-- unit variance  
-- stable distribution shape  
-- consistent entropy  
-- predictable curvature impact  
+$$\mathbb{E}[\hat{X}] = 0, \quad \text{Var}(\hat{X}) = 1$$
 
-Standardization is essential for manifold stability.
-
+By enforcing zero mean and unit variance, **Curvature ($\kappa$)** and **Drift ($D$)** are calculated from a neutral baseline, preventing "scale-drift" caused by raw magnitude differences.
 ---
 
 ## 11. Invariance Enforcement
@@ -567,15 +560,16 @@ Hybrid normalization blends:
 - drift‑aligned rules  
 
 Hybrid methods adapt to complex system demands.
-## 41. Entropy‑Weighted Normalization
 
-Entropy‑weighted normalization adjusts transformation strength based on local entropy.
+## 41. Entropy-Weighted Normalization
 
-High entropy → stronger normalization  
-Low entropy → lighter normalization  
+Transformation strength is modulated by the entropy-weighting function $w_E$, which adapts the normalization intensity to systemic disorder:
 
-This preserves structure where it matters and stabilizes chaos where needed.
+$$w_E(\Phi) = \exp(-\alpha \cdot S)$$
 
+**Dynamics:**
+* **High Entropy ($S \uparrow$):** Stronger damping and normalization to prevent geometric blowout.
+* **Low Entropy ($S \downarrow$):** Minimal transformation to preserve high-fidelity structural detail and manifold nuance.
 ---
 
 ## 42. Curvature‑Weighted Normalization
@@ -702,17 +696,15 @@ Longer horizons become achievable.
 
 ---
 
-## 52. Uncertainty‑Aligned Normalization
+## 52. Uncertainty-Aligned Normalization
 
-Uncertainty‑aligned normalization ensures:
+Uncertainty is bounded through the covariance projection $P_U$, ensuring that variance does not exceed the manifold's structural limits:
 
-- uncertainty is bounded  
-- variance is controlled  
-- entropy is stabilized  
-- predictive limits are respected  
+$$\text{Tr}(\Sigma_{\hat{x}}) \leq \delta_{\text{max}}$$
 
-Uncertainty becomes a manageable variable.
-
+**Where:**
+* **$\Sigma_{\hat{x}}$** is the normalized covariance matrix.
+* **$\delta_{\text{max}}$** is the maximum allowable uncertainty before **Predictive Expansion (Section 39)** occurs.
 ---
 
 ## 53. Latent‑Space Normalization
@@ -798,15 +790,12 @@ These rules form the substrate’s core.
 
 ## 59. Normalization Invariants
 
-Invariants preserved through normalization include:
+Invariants anchor the system’s structure by remaining constant through the transformation layer.
 
-- ordering  
-- topology  
-- curvature sign  
-- drift direction  
-- instability class  
-
-Invariants anchor the system’s structure.
+**Core Invariants:**
+* **Topological Ordering:** $x_i < x_j \implies \hat{x}_i < \hat{x}_j$.
+* **Curvature Sign:** $\text{sgn}(\kappa_{raw}) = \text{sgn}(\kappa_{norm})$.
+* **Drift Direction:** The vector orientation of $\mathbf{D}$ must be preserved across the mapping $S: \text{Raw} \to \text{Manifold}$.
 
 ---
 
