@@ -20,10 +20,10 @@ The Compass is the primary visual telemetry for the engine. It maps the **Drift 
 ---
 
 ## 🛠 Core Components
-* **[Normalization Substrate](./NORMALIZATION_SUBSTRATE.md):** Signal stabilization and invariant enforcement.
-* **[Predictive Manifold](./PREDICTIVE_MANIFOLD.md):** 60-section geometric modeling of state evolution.
-* **[Regime Boundaries](./REGIME_BOUNDARIES.md):** Mathematical definitions of phase transitions.
-* **[Drift Engine](./drift_engine.py):** Python implementation of state-vector velocity.
+* [Normalization Substrate](#normalization-substrate): Signal stabilization and invariant enforcement.
+* [Predictive Manifold](#predictive-manifold): 60-section geometric modeling of state evolution.
+* [Regime Boundaries](#regime-boundaries): Mathematical definitions of phase transitions.
+* [Drift Engine](#drift-engine): Python implementation of state-vector velocity.
 
 # VANTAGE 2.0
 ![Status](https://img.shields.io/badge/Status-Proprietary-red)
