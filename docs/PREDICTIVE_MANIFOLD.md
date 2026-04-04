@@ -865,8 +865,6 @@ The predictive manifold becomes a complete geometric engine for modeling system 
 
 ---
 
-## ## VANTAGE 2.0 | STABILITY TOPOGRAPHY
-### ### Geometric Mapping of Systemic Risk (Code 01)
 
 > **Architectural Note:** This 3D projection visualizes the **Riemann Curvature Tensor ($R$)** across the phase space. It identifies the "Basins of Attraction" vs. the "Fracture Zones."
 
