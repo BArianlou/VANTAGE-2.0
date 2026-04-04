@@ -24,10 +24,12 @@ The Compass is the primary visual telemetry for the engine. It maps the **Drift 
 
 ### 🛠 Core Components
 
-* [Normalization Substrate](#executive-summary): Signal stabilization and invariant enforcement.
-* [Predictive Manifold](#core-architecture): 60-section geometric modeling of state evolution.
-* [Regime Boundaries](#vantage-20): Mathematical definitions of phase transitions.
-* [Drift Engine](#vantage-20): Python implementation of state-vector velocity.
+### 🛠 Core Components
+
+* [Normalization Substrate](./vantage): Signal stabilization and invariant enforcement.
+* [Predictive Manifold](./docs/PREDICTIVE_MANIFOLD.md): 60-section geometric modeling of state evolution.
+* [Regime Boundaries](./spec): Mathematical definitions of phase transitions.
+* [Drift Engine](./vantage/phase_space.py): Python implementation of state-vector velocity.
   
 # VANTAGE 2.0
 ![Status](https://img.shields.io/badge/Status-Proprietary-red)
