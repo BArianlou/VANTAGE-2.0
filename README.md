@@ -29,7 +29,7 @@ The Compass is the primary visual telemetry for the engine. It maps the **Drift 
 
 - [Normalization Substrate](docs/NORMALIZATION_SUBSTRATE.md): Signal stabilization and invariant enforcement.
 * [Predictive Manifold](./docs/PREDICTIVE_MANIFOLD.md): 60-section geometric modeling of state evolution.
-- [Regime Boundaries](REGIME_BOUNDARIES.md): Mathematical definitions of phase transitions.
+- [Regime Boundaries](docs/REGIME_BOUNDARIES.md)
 * [Drift Engine](./vantage/phase_space.py): Python implementation of state-vector velocity.
   
 # VANTAGE 2.0
