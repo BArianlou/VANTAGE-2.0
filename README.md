@@ -1,3 +1,10 @@
+# VANTAGE 2.0
+![Status](https://img.shields.io/badge/Status-Proprietary-red)
+![Architecture](https://img.shields.io/badge/Architecture-Physics--Native-blue)
+![Engine](https://img.shields.io/badge/Engine-Vantage--2.0-green)
+
+**Regime‑Aware Predictive Intelligence Engine**
+
 ## Executive Summary
 Vantage 2.0 is a regime‑aware intelligence engine that models complex environments through entropy, momentum, and structural drift. It treats systems as evolving fields, identifies instability before it becomes observable, and generates predictive trajectories grounded in physics‑native dynamics rather than statistical assumptions.
 
@@ -63,12 +70,6 @@ The Compass is the primary visual telemetry for the engine. It maps the **Drift 
 - [Regime Boundaries](docs/REGIME_BOUNDARIES.md)
 * [Drift Engine](./vantage/phase_space.py): Python implementation of state-vector velocity.
   
-# VANTAGE 2.0
-![Status](https://img.shields.io/badge/Status-Proprietary-red)
-![Architecture](https://img.shields.io/badge/Architecture-Physics--Native-blue)
-![Engine](https://img.shields.io/badge/Engine-Vantage--2.0-green)
-
-**Regime‑Aware Predictive Intelligence Engine**
 
 
 
